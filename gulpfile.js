@@ -15,7 +15,7 @@ var rollupUglifyEs = require('rollup-plugin-uglify-es');
 var runSequence = require('run-sequence');
 
 
-var currentPackage = 'ej2-co'
+var currentPackage = 'ej2-diagrams'
 gulp.task('ship-ts', function () {
     shipSrc('./src/**/*.{ts,tsx}', './dist/ts/', ['./src/**/*.d.ts', './**/index.ts']);
 });
